@@ -7,6 +7,9 @@ about: []
 access:
 - schemaKey: AccessRequirements
   status: dandi:OpenAccess
+acknowledgement: National Institutes of Health, https://ror.org/01cwqze88, R01NS121371,
+  R21NS135545 Aligning Science Across Parkinson's, https://ror.org/03zj4c476, ASAP-020572,
+  ASAP-025187
 assetsSummary:
   numberOfBytes: 0
   numberOfFiles: 0
@@ -72,16 +75,39 @@ description: 'this dandiset contains the calcium imaging videos recorded as foll
 ethicsApproval: []
 id: DANDI:002042/draft
 identifier: DANDI:002042
+keywords:
+- motor cortex, parkinson's disease, mitopark, calcium imaging
 license:
 - spdx:CC-BY-4.0
 manifestLocation:
 - https://api.dandiarchive.org/api/dandisets/002042/versions/draft/assets/
 name: One-photon calcium imaging videos to record motor cortical acitvity in a progressive
   mouse model of nigrostriatal degeneration
-relatedResource: []
+protocol:
+- https://www.protocols.io/view/in-vivo-ca2-recording-in-mice-using-inscopix-minis-4r3l2xop4v1y/v1
+relatedResource:
+- identifier: 10.5281/zenodo.23734033
+  relation: dcite:IsSupplementedBy
+  repository: zenodo
+  resourceType: dcite:Dataset
+  schemaKey: Resource
+  url: http://10.5281/zenodo.23734033
 repository: https://dandiarchive.org
 schemaKey: Dandiset
 schemaVersion: 0.7.0
+studyTarget:
+- In the present work, we used a progressive mouse model of nigrostriatal degeneration
+  (i.e., MitoPark mice 29,30) to conduct longitudinal cellular imaging of neural activity
+  in the M1 in freely moving animals during gradually worsening striatal DA depletion.
+  Our results demonstrate that, during the progression of Parkinsonism, M1 neurons
+  gradually start to show abnormal activity at both cellular and population levels,
+  with the corticospinal (CSp) neurons showing a more robust and selective disruption
+  in their activity than the intratelencephalic (IT) neurons. In studies of task-related
+  activity, we also demonstrated that, as a whole population, M1 pyramidal neurons
+  comprise distinct functional clusters for movement encoding, whose organization
+  is disrupted as Parkinsonism develops in MitoPark mice. Together, the present work
+  provides new insight into cell-subtype-specific adaptations in M1 circuits during
+  the progressive loss of midbrain dopaminergic neurons in the parkinsonian state.
 url: https://dandiarchive.org/dandiset/002042/draft
 version: draft
 wasGeneratedBy: []
