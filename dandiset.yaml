@@ -11,9 +11,30 @@ acknowledgement: National Institutes of Health, https://ror.org/01cwqze88, R01NS
   R21NS135545 Aligning Science Across Parkinson's, https://ror.org/03zj4c476, ASAP-020572,
   ASAP-025187
 assetsSummary:
-  numberOfBytes: 0
-  numberOfFiles: 0
+  approach:
+  - name: microscopy approach; cell population imaging
+    schemaKey: ApproachType
+  dataStandard:
+  - identifier: RRID:SCR_015242
+    name: Neurodata Without Borders (NWB)
+    schemaKey: StandardsType
+  measurementTechnique:
+  - name: surgical technique
+    schemaKey: MeasurementTechniqueType
+  - name: one-photon microscopy technique
+    schemaKey: MeasurementTechniqueType
+  numberOfBytes: 12081941545
+  numberOfFiles: 2
+  numberOfSubjects: 1
   schemaKey: AssetsSummary
+  species:
+  - identifier: http://purl.obolibrary.org/obo/NCBITaxon_10090
+    name: Mus musculus - House mouse
+    schemaKey: SpeciesType
+  variableMeasured:
+  - ImagingPlane
+  - OnePhotonSeries
+  - OpticalChannel
 citation: Chehade, Hiba Douja; Chu, Hong-Yuan (2026) One photon calcium imaging videos
   to record motor cortical acitvity in a progressive mouse model of nigrostriatal
   degeneration (Version draft) [Data set]. DANDI Archive. https://dandiarchive.org/dandiset/002042/draft
