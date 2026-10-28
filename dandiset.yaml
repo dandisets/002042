@@ -43,7 +43,7 @@ assetsSummary:
   - OpticalChannel
 citation: Chehade, Hiba Douja; Chu, Hong-Yuan (2026) One photon calcium imaging videos
   to record motor cortical acitvity in a progressive mouse model of nigrostriatal
-  degeneration (Version draft) [Data set]. DANDI Archive. https://dandiarchive.org/dandiset/002042/draft
+  degeneration (Version 0.261028.2212) [Data set]. DANDI Archive. https://doi.org/10.48324/dandi.002042/0.261028.2212
 contributor:
 - affiliation:
   - name: Department of Pharmacology and Physiology, Georgetown University
@@ -110,6 +110,7 @@ contributor:
   - dcite:Funder
   schemaKey: Organization
 dateCreated: '2026-10-28T17:11:59.608042+00:00'
+datePublished: '2026-10-28T22:12:20.348168+00:00'
 description: 'this dandiset contains the calcium imaging videos recorded as follows:
   we used a progressive mouse model of nigrostriatal degeneration (i.e., MitoPark
   mice) to conduct longitudinal one-photon calcium imaging of neural activity in the
@@ -126,6 +127,7 @@ description: 'this dandiset contains the calcium imaging videos recorded as foll
   continuously at 20 Hz using the Inscopix Data Acquisition System by setting LED
   power at 0.2 -0.4 mW/mm2, exposure time at 50 ms, and sensor gain of 2 to 4. Paper
   can be found at https://doi.org/10.64898/2026.05.29.728524'
+doi: 10.48324/dandi.002042/0.261028.2212
 ethicsApproval:
 - contactPoint:
     email: guacuc@georgetown.edu
@@ -133,18 +135,30 @@ ethicsApproval:
     url: https://iacuc.georgetown.edu/
   identifier: 'IACUC protocol #2024-0001'
   schemaKey: EthicsApproval
-id: DANDI:002042/draft
+id: DANDI:002042/0.261028.2212
 identifier: DANDI:002042
 keywords:
 - motor cortex, parkinson's disease, mitopark, calcium imaging
 license:
 - spdx:CC-BY-4.0
 manifestLocation:
-- https://api.dandiarchive.org/api/dandisets/002042/versions/draft/assets/
+- https://dandiarchive.s3.amazonaws.com/dandisets/002042/0.261028.2212/assets.yaml
 name: One photon calcium imaging videos to record motor cortical acitvity in a progressive
   mouse model of nigrostriatal degeneration
 protocol:
 - https://www.protocols.io/view/in-vivo-ca2-recording-in-mice-using-inscopix-minis-4r3l2xop4v1y/v1
+publishedBy:
+  endDate: '2026-10-28T22:12:20.348168+00:00'
+  id: urn:uuid:db3a155a-7554-41a6-9070-5909d7bdf3c7
+  name: DANDI publish
+  schemaKey: PublishActivity
+  startDate: '2026-10-28T22:12:20.348168+00:00'
+  wasAssociatedWith:
+  - id: urn:uuid:0aa020bf-fcaa-46f8-a3b9-9ce07d15061b
+    identifier: RRID:SCR_017571
+    name: DANDI API
+    schemaKey: Software
+    version: 0.1.0
 relatedResource:
 - identifier: 10.5281/zenodo.23734033
   relation: dcite:IsSupplementedBy
@@ -168,6 +182,6 @@ studyTarget:
   is disrupted as Parkinsonism develops in MitoPark mice. Together, the present work
   provides new insight into cell-subtype-specific adaptations in M1 circuits during
   the progressive loss of midbrain dopaminergic neurons in the parkinsonian state.
-url: https://dandiarchive.org/dandiset/002042/draft
-version: draft
+url: https://dandiarchive.org/dandiset/002042/0.261028.2212
+version: 0.261028.2212
 wasGeneratedBy: []
