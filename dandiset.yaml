@@ -3,7 +3,16 @@
 # and obtained from the dandiarchive.
 '@context': 
   https://raw.githubusercontent.com/dandi/schema/master/releases/0.7.0/context.json
-about: []
+about:
+- identifier: http://purl.obolibrary.org/obo/UBERON_0001384
+  name: primary motor cortex
+  schemaKey: Anatomy
+- identifier: http://purl.obolibrary.org/obo/CL_2000049
+  name: primary motor cortex pyramidal cell
+  schemaKey: Anatomy
+- identifier: http://id.nlm.nih.gov/mesh/D010300
+  name: Parkinson's disease
+  schemaKey: Disorder
 access:
 - schemaKey: AccessRequirements
   status: dandi:OpenAccess
@@ -44,7 +53,6 @@ contributor:
   includeInCitation: true
   name: Chehade, Hiba Douja
   roleName:
-  - dcite:ContactPerson
   - dcite:DataCollector
   - dcite:DataCurator
   - dcite:Methodology
@@ -118,7 +126,13 @@ description: 'this dandiset contains the calcium imaging videos recorded as foll
   continuously at 20 Hz using the Inscopix Data Acquisition System by setting LED
   power at 0.2 -0.4 mW/mm2, exposure time at 50 ms, and sensor gain of 2 to 4. Paper
   can be found at https://doi.org/10.64898/2026.05.29.728524'
-ethicsApproval: []
+ethicsApproval:
+- contactPoint:
+    email: guacuc@georgetown.edu
+    schemaKey: ContactPoint
+    url: https://iacuc.georgetown.edu/
+  identifier: 'IACUC protocol #2024-0001'
+  schemaKey: EthicsApproval
 id: DANDI:002042/draft
 identifier: DANDI:002042
 keywords:
