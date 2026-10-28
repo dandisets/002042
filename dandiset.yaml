@@ -51,12 +51,8 @@ contributor:
   - dcite:Researcher
   schemaKey: Person
 - affiliation:
-  - name: Department of Pharmacology and physiology, Georgetown University
+  - name: Department of Pharmacology and Physiology, Georgetown University
     schemaKey: Affiliation
-  - identifier: https://ror.org/01cwqze88
-    name: R01NS121371
-    schemaKey: Affiliation
-  awardNumber: ''
   email: hc948@georgetown.edu
   identifier: 0000-0003-0923-683X
   includeInCitation: true
@@ -65,18 +61,46 @@ contributor:
   - dcite:Author
   - dcite:Conceptualization
   - dcite:ContactPerson
+  - dcite:DataCurator
+  - dcite:DataManager
+  - dcite:DataCollector
+  - dcite:FormalAnalysis
   - dcite:FundingAcquisition
   - dcite:Investigation
   - dcite:Methodology
   - dcite:ProjectLeader
+  - dcite:ProjectAdministration
   - dcite:Researcher
   - dcite:Resources
+  - dcite:Software
   - dcite:Supervision
-  - dcite:DataCollector
-  - dcite:DataCurator
-  - dcite:DataManager
-  - dcite:FormalAnalysis
+  - dcite:Validation
+  - dcite:Visualization
   schemaKey: Person
+- awardNumber: R01NS121371
+  identifier: https://ror.org/01cwqze88
+  name: National Institute of Health
+  roleName:
+  - dcite:Funder
+  schemaKey: Organization
+- awardNumber: R21NS135545
+  identifier: https://ror.org/01cwqze88
+  name: National Institute of Health
+  roleName:
+  - dcite:Funder
+  schemaKey: Organization
+- awardNumber: ' ASAP-020572'
+  identifier: https://ror.org/03zj4c476
+  name: Aligning Science Across Parkinson's
+  roleName:
+  - dcite:Funder
+  schemaKey: Organization
+- awardNumber: ASAP-025187
+  identifier: https://ror.org/03zj4c476
+  name: Aligning Science Across Parkinson's
+  roleName:
+  - dcite:Funder
+  schemaKey: Organization
 dateCreated: '2026-10-28T17:11:59.608042+00:00'
 description: 'this dandiset contains the calcium imaging videos recorded as follows:
   we used a progressive mouse model of nigrostriatal degeneration (i.e., MitoPark
