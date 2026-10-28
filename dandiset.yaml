@@ -3,6 +3,7 @@
 # and obtained from the dandiarchive.
 '@context': 
   https://raw.githubusercontent.com/dandi/schema/master/releases/0.7.0/context.json
+about: []
 access:
 - schemaKey: AccessRequirements
   status: dandi:OpenAccess
@@ -10,16 +11,46 @@ assetsSummary:
   numberOfBytes: 0
   numberOfFiles: 0
   schemaKey: AssetsSummary
-citation: Chehade, Hiba Douja (2026) One-photon calcium imaging videos to record motor
-  cortical acitvity in a progressive mouse model of nigrostriatal degeneration (Version
-  draft) [Data set]. DANDI Archive. https://dandiarchive.org/dandiset/002042/draft
+citation: Chehade, Hiba Douja; Chu, Hong-Yuan (2026) One-photon calcium imaging videos
+  to record motor cortical acitvity in a progressive mouse model of nigrostriatal
+  degeneration (Version draft) [Data set]. DANDI Archive. https://dandiarchive.org/dandiset/002042/draft
 contributor:
-- affiliation: []
+- affiliation:
+  - name: Department of Pharmacology and Physiology, Georgetown University
+    schemaKey: Affiliation
   email: hc960@georgetown.edu
+  identifier: 0000-0002-5959-7900
   includeInCitation: true
   name: Chehade, Hiba Douja
   roleName:
   - dcite:ContactPerson
+  - dcite:DataCollector
+  - dcite:DataCurator
+  - dcite:Methodology
+  - dcite:Researcher
+  schemaKey: Person
+- affiliation:
+  - name: Department of Pharmacology and physiology, Georgetown University
+    schemaKey: Affiliation
+  email: hc948@georgetown.edu
+  identifier: 0000-0003-0923-683X
+  includeInCitation: true
+  name: Chu, Hong-Yuan
+  roleName:
+  - dcite:Author
+  - dcite:Conceptualization
+  - dcite:ContactPerson
+  - dcite:FundingAcquisition
+  - dcite:Investigation
+  - dcite:Methodology
+  - dcite:ProjectLeader
+  - dcite:Researcher
+  - dcite:Resources
+  - dcite:Supervision
+  - dcite:DataCollector
+  - dcite:DataCurator
+  - dcite:DataManager
+  - dcite:FormalAnalysis
   schemaKey: Person
 dateCreated: '2026-10-28T17:11:59.608042+00:00'
 description: 'this dandiset contains the calcium imaging videos recorded as follows:
@@ -38,6 +69,7 @@ description: 'this dandiset contains the calcium imaging videos recorded as foll
   continuously at 20 Hz using the Inscopix Data Acquisition System by setting LED
   power at 0.2 -0.4 mW/mm2, exposure time at 50 ms, and sensor gain of 2 to 4. Paper
   can be found at https://doi.org/10.64898/2026.05.29.728524'
+ethicsApproval: []
 id: DANDI:002042/draft
 identifier: DANDI:002042
 license:
@@ -46,8 +78,10 @@ manifestLocation:
 - https://api.dandiarchive.org/api/dandisets/002042/versions/draft/assets/
 name: One-photon calcium imaging videos to record motor cortical acitvity in a progressive
   mouse model of nigrostriatal degeneration
+relatedResource: []
 repository: https://dandiarchive.org
 schemaKey: Dandiset
 schemaVersion: 0.7.0
 url: https://dandiarchive.org/dandiset/002042/draft
 version: draft
+wasGeneratedBy: []
