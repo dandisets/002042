@@ -7,9 +7,6 @@ about: []
 access:
 - schemaKey: AccessRequirements
   status: dandi:OpenAccess
-acknowledgement: National Institutes of Health, https://ror.org/01cwqze88, R01NS121371,
-  R21NS135545 Aligning Science Across Parkinson's, https://ror.org/03zj4c476, ASAP-020572,
-  ASAP-025187
 assetsSummary:
   approach:
   - name: microscopy approach; cell population imaging
@@ -23,8 +20,8 @@ assetsSummary:
     schemaKey: MeasurementTechniqueType
   - name: one-photon microscopy technique
     schemaKey: MeasurementTechniqueType
-  numberOfBytes: 573831340103
-  numberOfFiles: 100
+  numberOfBytes: 592609559593
+  numberOfFiles: 103
   numberOfSubjects: 28
   schemaKey: AssetsSummary
   species:
@@ -56,6 +53,10 @@ contributor:
 - affiliation:
   - name: Department of Pharmacology and physiology, Georgetown University
     schemaKey: Affiliation
+  - identifier: https://ror.org/01cwqze88
+    name: R01NS121371
+    schemaKey: Affiliation
+  awardNumber: ''
   email: hc948@georgetown.edu
   identifier: 0000-0003-0923-683X
   includeInCitation: true
