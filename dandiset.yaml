@@ -23,9 +23,9 @@ assetsSummary:
     schemaKey: MeasurementTechniqueType
   - name: one-photon microscopy technique
     schemaKey: MeasurementTechniqueType
-  numberOfBytes: 539613886469
-  numberOfFiles: 95
-  numberOfSubjects: 26
+  numberOfBytes: 573831340103
+  numberOfFiles: 100
+  numberOfSubjects: 28
   schemaKey: AssetsSummary
   species:
   - identifier: http://purl.obolibrary.org/obo/NCBITaxon_10090
