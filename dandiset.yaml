@@ -14,7 +14,7 @@ assetsSummary:
   numberOfBytes: 0
   numberOfFiles: 0
   schemaKey: AssetsSummary
-citation: Chehade, Hiba Douja; Chu, Hong-Yuan (2026) One-photon calcium imaging videos
+citation: Chehade, Hiba Douja; Chu, Hong-Yuan (2026) One photon calcium imaging videos
   to record motor cortical acitvity in a progressive mouse model of nigrostriatal
   degeneration (Version draft) [Data set]. DANDI Archive. https://dandiarchive.org/dandiset/002042/draft
 contributor:
@@ -81,7 +81,7 @@ license:
 - spdx:CC-BY-4.0
 manifestLocation:
 - https://api.dandiarchive.org/api/dandisets/002042/versions/draft/assets/
-name: One-photon calcium imaging videos to record motor cortical acitvity in a progressive
+name: One photon calcium imaging videos to record motor cortical acitvity in a progressive
   mouse model of nigrostriatal degeneration
 protocol:
 - https://www.protocols.io/view/in-vivo-ca2-recording-in-mice-using-inscopix-minis-4r3l2xop4v1y/v1
